@@ -1,0 +1,11 @@
+<!ELEMENT factura (cliente, items, total)>
+<!ELEMENT cliente (nombre, direccion?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT items (item+)>
+<!ELEMENT item (descripcion, cantidad, precio)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ATTLIST factura id ID #REQUIRED>

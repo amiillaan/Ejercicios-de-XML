@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cine>
+    <pelicula>
+        <titulo>El viaje fantasitico</titulo>
+        <director>Pedro Gonzalez</director>
+        <ani>2020</ani>
+        <duracion minutos="120">120</duracion>
+        <genero>Ciencia ficcion</genero>
+        <calificacion calificacion="PG">PG</calificacion>
+    </pelicula>
+    <pelicula>
+        <titulo>La venganza del Dragon</titulo>
+        <director>Ana Martinez</director>
+        <ani>2019</ani>
+        <duracion minutos="140">140</duracion>
+        <genero>Accion</genero>
+        <calificacion calificacion="R">R</calificacion>
+    </pelicula>
+    <pelicula>
+        <titulo>La aventura del tiempo</titulo>
+        <director>Jose Sanchez</director>
+        <ani>2018</ani>
+        <duracion minutos="115">115</duracion>
+        <genero>Aventura</genero>
+        <calificacion calificacion="PG-13">PG-13</calificacion>
+    </pelicula>
+    <pelicula>
+            <titulo>Misterios del universos</titulo>
+            <director>Laura Lopez</director>
+            <ani>2021</ani>
+            <duracion minutos="130">130</duracion>
+            <genero>Documental</genero>
+            <calificacion calificacion="G">G</calificacion>
+    </pelicula>
+    <pelicula>
+        <titulo>Un viajo extraordinario</titulo>
+        <director>Marta Fernandez</director>
+        <ani>2017</ani>
+        <duracion minutos="100">100</duracion>
+        <genero>Ciencia ficcion</genero>
+        <calificacion calificacion="PG">PG</calificacion>
+    </pelicula>
+</cine>

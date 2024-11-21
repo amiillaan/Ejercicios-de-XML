@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <fechas>
+        <fecha-de-factura>17/04/2024</fecha-de-factura>
+        <numero-de-factura>2024-0001</numero-de-factura>
+        <fecha-de-vencimiento>17/05/2024</fecha-de-vencimiento>
+    </fechas>
+    <nombre-del-responsable>Orlando Juan Loban
+        <direccion>Avenida Rosario 2, 1 A</direccion>
+        <NIF>39000001A</NIF>
+        <CP-ciudad>08001, Barcelona</CP-ciudad>
+        <Correo>info@orlandojuan.es</Correo>
+    </nombre-del-responsable>
+    <Empresa>Empresa de logística, S.L
+        <direccion>Calle San Juan de la Luz, s/n</direccion>
+        <CIF>B12345678</CIF>
+        <CP-ciudad>28001, Madrid</CP-ciudad>
+        <Correo>info@empresalogisitasl.com</Correo>
+    </Empresa>
+    <Productos>
+        <Producto id="1">
+            <descripcion>Producto1</descripcion>
+            <unidades>2</unidades>
+            <precio-unitario moneda="EUR">100</precio-unitario>
+            <precio moneda="EUR">200</precio>
+        </Producto>
+        <Producto id="2">
+            <descripcion>Producto2</descripcion>
+            <unidades>4</unidades>
+            <precio-unitario moneda="EUR">150</precio-unitario>
+            <precio moneda="EUR">600</precio>
+        </Producto>
+        <Producto id="3">
+            <descripcion>Producto3</descripcion>
+            <unidades>7</unidades>
+            <precio-unitario moneda="EUR">150</precio-unitario>
+            <precio moneda="EUR">651</precio>
+        </Producto>
+    </Productos>
+    <costes>
+        <base-imponible moneda="EUR">1451</base-imponible>
+        <IVA moneda="EUR" porcentaje="21%">304,71</IVA>
+        <IRPF moneda="EUR" porcentaje="-15%">-217,65</IRPF>
+        <total>1538,06</total>
+    </costes>
+</factura>

@@ -1,0 +1,8 @@
+<!ELEMENT maquinas (maquina+)>
+<!ELEMENT maquina (nombre, sistema, cpu, ram, almacenamiento)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT sistema (#PCDATA)>
+<!ELEMENT cpu (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT almacenamiento (#PCDATA)>
+<!ATTLIST maquina id ID #REQUIRED>

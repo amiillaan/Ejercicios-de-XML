@@ -1,0 +1,8 @@
+<!ELEMENT filmoteca (pelicula+)>
+<!ELEMENT pelicula (titulo, director, genero?, año, sinopsis?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ATTLIST pelicula codigo ID #REQUIRED>

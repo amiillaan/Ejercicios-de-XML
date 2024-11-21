@@ -1,0 +1,7 @@
+<!ELEMENT personas (persona*)>
+<!ELEMENT persona (nombre, apellido, edad, direccion?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST persona id ID #IMPLIED>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Personas>
+    <Persona id="1">
+      <Nombre>Juan</Nombre>
+      <Apellidos>Pérez López</Apellidos>
+      <Teléfono>123456789</Teléfono>
+      <Email>juan.perez@example.com</Email>
+      <Dirección>
+        <TipoVia>Calle</TipoVia>
+        <NombreVia>Gran Vía</NombreVia>
+        <Número>100</Número>
+      </Dirección>
+    </Persona>
+    <Persona id="2">
+      <Nombre>María</Nombre>
+      <Apellidos>García Fernández</Apellidos>
+      <Teléfono>987654321</Teléfono>
+      <Email>maria.garcia@example.com</Email>
+      <Dirección>
+        <TipoVia>Avenida</TipoVia>
+        <NombreVia>Constitución</NombreVia>
+        <Número>50</Número>
+      </Dirección>
+    </Persona>
+    <Persona id="3">
+      <Nombre>Carlos</Nombre>
+      <Apellidos>López Martínez</Apellidos>
+      <Teléfono>1122334455</Teléfono>
+      <Email>carlos.lopez@example.com</Email>
+      <Dirección>
+        <TipoVia>Calle</TipoVia>
+        <NombreVia>Serrano</NombreVia>
+        <Número>35</Número>
+      </Dirección>
+    </Persona>
+    <Persona id="4">
+      <Nombre>Ana</Nombre>
+      <Apellidos>Ruiz Sánchez</Apellidos>
+      <Teléfono>2233445566</Teléfono>
+      <Email>ana.ruiz@example.com</Email>
+      <Dirección>
+        <TipoVia>Plaza</TipoVia>
+        <NombreVia>Mayor</NombreVia>
+        <Número>10</Número>
+      </Dirección>
+    </Persona>
+    <Persona id="5">
+      <Nombre>Laura</Nombre>
+      <Apellidos>Torres Gómez</Apellidos>
+      <Teléfono>3344556677</Teléfono>
+      <Email>laura.torres@example.com</Email>
+      <Dirección>
+        <TipoVia>Camino</TipoVia>
+        <NombreVia>El Prado</NombreVia>
+        <Número>8</Número>
+      </Dirección>
+    </Persona>
+  </Personas>  
